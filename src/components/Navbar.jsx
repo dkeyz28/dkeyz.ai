@@ -15,7 +15,7 @@ const [sidebarOpen, setSidebarOpen] = useState(false)
     transition={{duration: 0.6, ease: 'easeOut' }}
     className='flex justify-between items-center px-4 sm:px-12 lg:px-24 xl:px-40 py-4 sticky top-0 z-20 backdrop-blur-xl font-medium bg-white/50 dark:bg-gray-900/70'>
 
-       <img src={theme === 'dark' ? assets.my_logo : assets.my_logo_dark}className='w-32 sm:w-10' alt="Brand logo" />
+       <img src={theme === 'dark' ? assets.my_logo : assets.my_logo_dark}className='size-15' alt="Brand logo" />
 
         <div className={`text-gray-700 dark:text-white sm:text-sm ${!sidebarOpen ? 'max-sm:w-0 overflow-hidden' : 'max-sm:w-60 max-sm:pl-10'} max-sm:fixed top-0 bottom-0 right-0 max-sm:min-h-screen max-sm:h-full max-sm:flex-col max-sm:bg-primary max-sm:text-white max-sm:pt-20 flex sm:items-center gap-5 transition-all`}>
             <img src={assets.close_icon} alt="close icon" className='w-9 absolute right-4 top-4 sm:hidden' onClick={()=> setSidebarOpen(false)}/>
