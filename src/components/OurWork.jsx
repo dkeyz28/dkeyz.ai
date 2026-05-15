@@ -7,20 +7,31 @@ const OurWork = () => {
 
     const workData =[
         {
-            title: 'Brand Fliers',
+            title: 'Brand Flyer',
             description:'From creativity to execution, we craft visual solutions that move your brand forward..',
             image: assets.work_image
         },
          {
-            title: 'Season Flier',
+            title: 'Season Flyer',
             description:'We create fresh and vibrant fliers to welcome new seasons and captivate your audience.',
             image: assets.season
         },
          {
-            title: 'Event Flier',
+            title: 'Event Flyer',
             description:'We turn bold ideas into powerful creative solutions that helps publicize your events.',
             image: assets.program
+        },
+        {
+            title: 'Direction Flyer',
+            description:'We design visually striking flyers that guide attention with clear diretion, purposeful layouts, and strategic composition',
+            image: assets.transport
+        },
+        {
+            title: 'Carousel Flyer',
+            description:'We create smooth, engaging carousel flyers that guide viewers slide by slide with strong visual direction, seamless flow, and impactful storytelling.',
+            image: assets.carousel
         }
+        
     ]
   return (
     <motion.div

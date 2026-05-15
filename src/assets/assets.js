@@ -22,6 +22,8 @@ import email from './email.svg'
 import submit from './submit.svg'
 import instagram from './instagram.svg'
 import pinterest from './pinterest.svg'
+import transport from './transport.jpg'
+import carousel from './carousel.jpg'
 
 export const design_logos = [
     photoshop_logo,
@@ -50,6 +52,8 @@ const assets = {
     submit,
     instagram,
     pinterest,
+    transport,
+    carousel,
 }
 
 export default assets
